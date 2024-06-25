@@ -22,14 +22,14 @@ class HighLightsInfo extends StatelessWidget {
                   children: [
                     HighLight(
                       counter: AnimatedCounter(
-                        value: 15,
+                        value: 25,
                         text: "+",
                       ),
                       label: "Projects",
                     ),
                     HighLight(
                       counter: AnimatedCounter(
-                        value: 40,
+                        value: 6,
                         text: "+",
                       ),
                       label: "Github Repos",
@@ -42,7 +42,7 @@ class HighLightsInfo extends StatelessWidget {
                   children: [
                     HighLight(
                       counter: AnimatedCounter(
-                        value: 1,
+                        value: 3,
                         text: "K+",
                       ),
                       label: "LinkedIn Followers",
@@ -57,21 +57,21 @@ class HighLightsInfo extends StatelessWidget {
               children: [
                 HighLight(
                   counter: AnimatedCounter(
-                    value: 15,
+                    value: 25,
                     text: "+",
                   ),
                   label: "Projects",
                 ),
                 HighLight(
                   counter: AnimatedCounter(
-                    value: 40,
+                    value: 6,
                     text: "+",
                   ),
                   label: "Github Repos",
                 ),
                 HighLight(
                   counter: AnimatedCounter(
-                    value: 1,
+                    value: 3,
                     text: "K+",
                   ),
                   label: "LinkedIn Followers",

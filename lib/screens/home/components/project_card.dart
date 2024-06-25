@@ -32,21 +32,21 @@ class ProjectCard extends StatelessWidget {
             overflow: TextOverflow.ellipsis,
             style: Theme.of(context).textTheme.titleMedium,
           ),
-          Spacer(),
+          const SizedBox(height: 25),
           Text(
             project.description!,
             maxLines: Responsive.isMobileLarge(context) ? 3 : 5,
             overflow: TextOverflow.ellipsis,
             style: TextStyle(height: 1.5),
           ),
-          Spacer(),
-          TextButton(
-            onPressed: () {},
-            child: Text(
-              "Read More >>",
-              style: TextStyle(color: primaryColor),
-            ),
-          ),
+          // Spacer(),
+          // TextButton(
+          //   onPressed: () {},
+          //   child: Text(
+          //     "Read More >>",
+          //     style: TextStyle(color: primaryColor),
+          //   ),
+          // ),
         ],
       ),
     );

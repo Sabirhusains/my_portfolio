@@ -31,10 +31,10 @@ class Knowledges extends StatelessWidget {
           text: "HTML,CSS,JS",
         ),
         KnowledgeText(
-          text: "MySQL,SQL,MongoDB",
+          text: "MySQL,SQL,Supabase",
         ),
         KnowledgeText(
-          text: "ReactJS,NodeJS",
+          text: "Javascript,Bootstrap",
         ),
       ],
     );

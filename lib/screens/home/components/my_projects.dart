@@ -12,34 +12,37 @@ class MyProjects extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        Text(
-          "My Projects",
-          style: Theme.of(context).textTheme.titleLarge,
-        ),
-        const SizedBox(height: defaultPadding),
-        Responsive(
-          mobile: ProjectsGridView(
-            crossAxisCount: 1,
-            childAspectRatio: 1.7,
+    return Padding(
+      padding: const EdgeInsets.all(10.0),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(
+            "My Projects",
+            style: Theme.of(context).textTheme.titleLarge,
           ),
-          mobileLarge: ProjectsGridView(
-            crossAxisCount: 2,
+          const SizedBox(height: defaultPadding),
+          Responsive(
+            mobile: ProjectsGridView(
+              crossAxisCount: 1,
+              childAspectRatio: 1.7,
+            ),
+            mobileLarge: ProjectsGridView(
+              crossAxisCount: 2,
+            ),
+            tablet: ProjectsGridView(childAspectRatio: .8),
+            desktop: ProjectsGridView(),
           ),
-          tablet: ProjectsGridView(childAspectRatio: .8),
-          desktop: ProjectsGridView(),
-        ),
-        const SizedBox(height: defaultPadding),
-        Center(
-          child: Text(
-            "Copyright ©️ 2024  Giridharan S",
-            style: Theme.of(context).textTheme.titleMedium,
+          const SizedBox(height: defaultPadding),
+          Center(
+            child: Text(
+              "Copyright ©️ 2024  SABIRHUSAIN S",
+              style: Theme.of(context).textTheme.titleMedium,
+            ),
           ),
-        ),
-        const SizedBox(height: defaultPadding),
-      ],
+          const SizedBox(height: defaultPadding),
+        ],
+      ),
     );
   }
 }

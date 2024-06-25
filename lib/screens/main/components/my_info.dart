@@ -19,17 +19,21 @@ class MyInfo extends StatelessWidget {
             ),
             CircleAvatar(
               radius: 50,
-              backgroundImage: AssetImage("assets/images/pro.png"),
+              backgroundImage: AssetImage("assets/images/profile.png"),
             ),
             Spacer(),
             Text(
-              "Giridharan S",
+              "Sabirhusain Sheliya",
               style: Theme.of(context).textTheme.titleSmall,
             ),
             Text(
-              """FullStack Developer👨‍💻
+              """Flutter Developer | Android || ios || Extensive exp in Flutter ,Firebase , Supabase ,RESTAPI ,Figma ,Dart | Dynamic Problem Solver,👨‍💻
     Tech Lover💕|Self-Learner✨""",
               textAlign: TextAlign.center,
+              style: TextStyle(fontWeight: FontWeight.w200, height: 1.5),
+            ),
+            Text(
+              "(Android & ios & desktop)",
               style: TextStyle(fontWeight: FontWeight.w200, height: 1.5),
             ),
             Spacer(

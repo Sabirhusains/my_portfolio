@@ -30,15 +30,15 @@ class SideMenu extends StatelessWidget {
                   children: [
                     AreaInfoText(
                       title: "State",
-                      text: "Tamil Nadu",
+                      text: "Gujarat",
                     ),
                     AreaInfoText(
                       title: "City",
-                      text: "Dharmapuri",
+                      text: "Ahmedabad",
                     ),
                     AreaInfoText(
                       title: "Age",
-                      text: "19",
+                      text: "24",
                     ),
                     Skills(),
                     SizedBox(
@@ -79,14 +79,14 @@ class SideMenu extends StatelessWidget {
                             onPressed: () {},
                             icon: SvgPicture.asset("assets/icons/github.svg"),
                           ),
-                          IconButton(
-                            onPressed: () {},
-                            icon: SvgPicture.asset("assets/icons/twitter.svg"),
-                          ),
-                          IconButton(
-                            onPressed: () {},
-                            icon: SvgPicture.asset("assets/icons/leetcode.svg"),
-                          ),
+                          // IconButton(
+                          //   onPressed: () {},
+                          //   icon: SvgPicture.asset("assets/icons/twitter.svg"),
+                          // ),
+                          // IconButton(
+                          //   onPressed: () {},
+                          //   icon: SvgPicture.asset("assets/icons/leetcode.svg"),
+                          // ),
                           Spacer(),
                         ],
                       ),

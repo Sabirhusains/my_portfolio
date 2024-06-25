@@ -15,8 +15,12 @@ class ExprCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       width: 350,
+      decoration: BoxDecoration(
+        color: secondaryColor,
+        borderRadius: BorderRadius.circular(10),
+      ),
       padding: EdgeInsets.all(defaultPadding),
-      color: secondaryColor,
+
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [

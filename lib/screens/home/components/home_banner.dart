@@ -17,7 +17,7 @@ class HomeBanner extends StatelessWidget {
         fit: StackFit.expand,
         children: [
           Image.asset(
-            "assets/images/bg.jpeg",
+            "assets/images/background.png",
             fit: BoxFit.cover,
           ),
           Container(
@@ -45,20 +45,20 @@ class HomeBanner extends StatelessWidget {
                   const SizedBox(height: defaultPadding / 2),
                 MyBuilderAnimatedText(),
                 SizedBox(height: defaultPadding),
-                if (!Responsive.isMobileLarge(context))
-                  ElevatedButton(
-                    onPressed: () {},
-                    style: TextButton.styleFrom(
-                      padding: EdgeInsets.symmetric(
-                          horizontal: defaultPadding * 2,
-                          vertical: defaultPadding),
-                      backgroundColor: primaryColor,
-                    ),
-                    child: Text(
-                      "EXPLORE NOW",
-                      style: TextStyle(color: exp),
-                    ),
-                  ),
+                // if (!Responsive.isMobileLarge(context))
+                //   ElevatedButton(
+                //     onPressed: () {},
+                //     style: TextButton.styleFrom(
+                //       padding: EdgeInsets.symmetric(
+                //           horizontal: defaultPadding * 2,
+                //           vertical: defaultPadding),
+                //       backgroundColor: primaryColor,
+                //     ),
+                //     child: Text(
+                //       "EXPLORE NOW",
+                //       style: TextStyle(color: exp),
+                //     ),
+                //   ),
               ],
             ),
           ),
@@ -106,15 +106,19 @@ class AnimatedText extends StatelessWidget {
     return AnimatedTextKit(
       animatedTexts: [
         TyperAnimatedText(
-          "Weather App",
+          "AnimalsWale App",
           speed: Duration(milliseconds: 60),
         ),
         TyperAnimatedText(
-          "SAP Point Calculator",
+          "Flutter News App",
           speed: Duration(milliseconds: 60),
         ),
         TyperAnimatedText(
-          "BMI Calculator",
+          "ChatBot App",
+          speed: Duration(milliseconds: 60),
+        ),
+        TyperAnimatedText(
+          "Bill Splitter App",
           speed: Duration(milliseconds: 60),
         ),
       ],
@@ -134,7 +138,7 @@ class FlutterCodedText extends StatelessWidget {
         text: "<",
         children: [
           TextSpan(
-            text: "WebTechnology",
+            text: "Application Development",
             style: TextStyle(color: primaryColor),
           ),
           TextSpan(text: ">"),
