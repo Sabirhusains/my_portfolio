@@ -22,16 +22,18 @@ class Expr extends StatelessWidget {
             style: Theme.of(context).textTheme.titleLarge,
           ),
           const SizedBox(height: defaultPadding),
-          Row(
-              children: List.generate(
-                demoExperience.length,
-                    (index) => Padding(
-                  padding: const EdgeInsets.only(right: defaultPadding),
-                  child: ExprCard(
-                    expr: demoExperience[index],
+          SingleChildScrollView(
+            child: Row(
+                children: List.generate(
+                  demoExperience.length,
+                      (index) => Padding(
+                    padding: const EdgeInsets.only(right: defaultPadding),
+                    child: ExprCard(
+                      expr: demoExperience[index],
+                    ),
                   ),
-                ),
-              )),
+                )),
+          ),
           const SizedBox(height: 25),
         ],
       ),
