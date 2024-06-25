@@ -1,5 +1,4 @@
-# 🌟 Flutter Portfolio By Giridharan S🌟
-### **[View My Website](https://giris-flutter.netlify.app/)**
+### **[View My Website]()**
 
 Welcome to the Flutter Portfolio project! This README will guide you through the steps to get your portfolio up and running. Follow along to showcase your skills and projects in a beautiful and interactive way.
 
@@ -46,19 +45,6 @@ Make sure you have the following installed:
 
 ## 🛠️ Installation
 
-1. **Clone the repo**
-
-   ```sh
-   git clone https://github.com/GiridharanS1729/flutter-portfolio.git
-
-2. **Navigate to the project directory**
-
-   ```sh
-   cd flutter-portfolio
-
-3. **Install dependencies**
-
-   ```sh
    flutter pub get
 
 4. **▶️ Running the App**
